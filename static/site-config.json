@@ -1,0 +1,352 @@
+{
+  "blocks": {
+    "order": [
+      "about_134cwr21",
+      "features_friofs23",
+      "team_8778vkfh"
+    ],
+    "data": {
+      "about_134cwr21": {
+        "id": "about_134cwr21",
+        "name": "About us",
+        "block_type": "about",
+        "layout": {
+          "type": "minimal",
+          "components": {
+            "heading": false,
+            "subheading": true,
+            "description": true,
+            "primary_cta": true,
+            "features": true,
+            "featured_image": true
+          }
+        },
+        "content": {
+          "components": {
+            "heading": {
+              "title": "About block Heading"
+            },
+            "subheading": {
+              "title": "About block sub heading"
+            },
+            "description": {
+              "text": "About block description comes here"
+            },
+            "primary_cta": {
+              "text": "Learn more",
+              "link": "https://google.com",
+              "target": "new",
+              "icon": "arrow-cta"
+            },
+            "features": [
+              {
+                "title": "new feature title",
+                "subtitle": "excellent fature idea comes here",
+                "description": "it's so simple to have this feature here",
+                "media": "icon",
+                "icon": "icon-play",
+                "image": "feature.png",
+                "video": "<embed></embed>",
+                "primary_cta": {
+                  "text": "Learn more",
+                  "link": "https://google.com",
+                  "target": "new",
+                  "icon": "arrow-cta"
+                },
+                "secondary_cta": {
+                  "text": "Learn more",
+                  "link": "https://google.com",
+                  "target": "same_window",
+                  "icon": "icon-tick"
+                }
+              },
+              {
+                "title": "new feature title 2",
+                "subtitle": "excellent fature idea comes here 2",
+                "description": "it's so simple to have this feature here 2",
+                "media": "icon",
+                "icon": "icon-play",
+                "image": "feature.png",
+                "video": "<embed></embed>",
+                "primary_cta": {
+                  "text": "Learn more",
+                  "link": "https://google.com",
+                  "target": "new",
+                  "icon": "arrow-cta"
+                },
+                "secondary_cta": {
+                  "text": "Learn more",
+                  "link": "https://google.com",
+                  "target": "same_window",
+                  "icon": "icon-tick"
+                }
+              },
+              {
+                "title": "new feature title 3",
+                "subtitle": "excellent fature idea comes here 3",
+                "description": "it's so simple to have this feature here 3",
+                "media": "icon",
+                "icon": "icon-play",
+                "image": "feature.png",
+                "video": "<embed></embed>",
+                "primary_cta": {
+                  "text": "Learn more",
+                  "link": "https://google.com",
+                  "target": "new",
+                  "icon": "arrow-cta"
+                },
+                "secondary_cta": {
+                  "text": "Learn more",
+                  "link": "https://google.com",
+                  "target": "same_window",
+                  "icon": "icon-tick"
+                }
+              }
+            ],
+            "featured_image": {
+              "image": "https://source.unsplash.com/random/400x400",
+              "alttext": "about block featured image"
+            }
+          },
+          "intro": "super cool website",
+          "featured_video": "<script></script>",
+          "block_icon": "icon-play",
+          "primary_cta": {
+            "text": "Learn more",
+            "link": "https://google.com",
+            "target": "new",
+            "icon": "arrow-cta"
+          },
+          "secondary_cta": {
+            "text": "Learn more",
+            "link": "https://google.com",
+            "target": "same_window",
+            "icon": "icon-tick"
+          },
+          "logo_cloud": [
+            "one.png",
+            "two.png",
+            "three.png",
+            "four.png",
+            "five.png",
+            "six.png"
+          ]
+        }
+      },
+      "team_8778vkfh": {
+        "id": "team_8778vkfh",
+        "name": "Team",
+        "block_type": "team",
+        "layout": {
+          "type": "simple",
+          "components": {
+            "heading": false,
+            "subheading": true,
+            "description": true
+          }
+        },
+        "content": {
+          "intro": "super cool website",
+          "heading": "Team block Welcome to my website",
+          "subheading": "Team block Create your website right away",
+          "description": "Team block my new Web section info will come up here.",
+          "featured_image": "/image.png",
+          "featured_video": "<script></script>",
+          "block_icon": "icon-play",
+          "primary_cta": {
+            "text": "Learn more",
+            "link": "https://google.com",
+            "target": "new",
+            "icon": "arrow-cta"
+          },
+          "secondary_cta": {
+            "text": "Learn more",
+            "link": "https://google.com",
+            "target": "same_window",
+            "icon": "icon-tick"
+          },
+          "features": [
+            {
+              "title": "new feature title",
+              "subtitle": "excellent fature idea comes here",
+              "description": "it's so simple to have this feature here",
+              "media": "icon",
+              "icon": "icon-play",
+              "image": "feature.png",
+              "video": "<embed></embed>",
+              "primary_cta": {
+                "text": "Learn more",
+                "link": "https://google.com",
+                "target": "new",
+                "icon": "arrow-cta"
+              },
+              "secondary_cta": {
+                "text": "Learn more",
+                "link": "https://google.com",
+                "target": "same_window",
+                "icon": "icon-tick"
+              }
+            },
+            {
+              "title": "new feature title 2",
+              "subtitle": "excellent fature idea comes here 2",
+              "description": "it's so simple to have this feature here",
+              "media": "icon",
+              "icon": "icon-play",
+              "image": "feature.png",
+              "video": "<embed></embed>",
+              "primary_cta": {
+                "text": "Learn more",
+                "link": "https://google.com",
+                "target": "new",
+                "icon": "arrow-cta"
+              },
+              "secondary_cta": {
+                "text": "Learn more",
+                "link": "https://google.com",
+                "target": "same_window",
+                "icon": "icon-tick"
+              }
+            },
+            {
+              "title": "new feature title 3",
+              "subtitle": "excellent fature idea comes here 3",
+              "description": "it's so simple to have this feature here",
+              "media": "icon",
+              "icon": "icon-play",
+              "image": "feature.png",
+              "video": "<embed></embed>",
+              "primary_cta": {
+                "text": "Learn more",
+                "link": "https://google.com",
+                "target": "new",
+                "icon": "arrow-cta"
+              },
+              "secondary_cta": {
+                "text": "Learn more",
+                "link": "https://google.com",
+                "target": "same_window",
+                "icon": "icon-tick"
+              }
+            }
+          ],
+          "logo_cloud": [
+            "one.png",
+            "two.png",
+            "three.png",
+            "four.png",
+            "five.png",
+            "six.png"
+          ]
+        }
+      },
+      "features_friofs23": {
+        "id": "features_friofs23",
+        "name": "Features",
+        "block_type": "features",
+        "layout": {
+          "type": "2_col",
+          "components": {
+            "heading": false,
+            "subheading": true,
+            "description": true
+          }
+        },
+        "content": {
+          "intro": "super cool website",
+          "heading": "Features block Welcome to my website",
+          "subheading": "Features block Create your website right away",
+          "description": "Features block my new Web section info will come up here.",
+          "featured_image": "/image.png",
+          "featured_video": "<script></script>",
+          "block_icon": "icon-play",
+          "primary_cta": {
+            "text": "Learn more",
+            "link": "https://google.com",
+            "target": "new",
+            "icon": "arrow-cta"
+          },
+          "secondary_cta": {
+            "text": "Learn more",
+            "link": "https://google.com",
+            "target": "same_window",
+            "icon": "icon-tick"
+          },
+          "features": [
+            {
+              "title": "new feature title",
+              "subtitle": "excellent fature idea comes here",
+              "description": "it's so simple to have this feature here",
+              "media": "icon",
+              "icon": "icon-play",
+              "image": "feature.png",
+              "video": "<embed></embed>",
+              "primary_cta": {
+                "text": "Learn more",
+                "link": "https://google.com",
+                "target": "new",
+                "icon": "arrow-cta"
+              },
+              "secondary_cta": {
+                "text": "Learn more",
+                "link": "https://google.com",
+                "target": "same_window",
+                "icon": "icon-tick"
+              }
+            },
+            {
+              "title": "new feature title 2",
+              "subtitle": "excellent fature idea comes here 2",
+              "description": "it's so simple to have this feature here",
+              "media": "icon",
+              "icon": "icon-play",
+              "image": "feature.png",
+              "video": "<embed></embed>",
+              "primary_cta": {
+                "text": "Learn more",
+                "link": "https://google.com",
+                "target": "new",
+                "icon": "arrow-cta"
+              },
+              "secondary_cta": {
+                "text": "Learn more",
+                "link": "https://google.com",
+                "target": "same_window",
+                "icon": "icon-tick"
+              }
+            },
+            {
+              "title": "new feature title 3",
+              "subtitle": "excellent fature idea comes here 3",
+              "description": "it's so simple to have this feature here",
+              "media": "icon",
+              "icon": "icon-play",
+              "image": "feature.png",
+              "video": "<embed></embed>",
+              "primary_cta": {
+                "text": "Learn more",
+                "link": "https://google.com",
+                "target": "new",
+                "icon": "arrow-cta"
+              },
+              "secondary_cta": {
+                "text": "Learn more",
+                "link": "https://google.com",
+                "target": "same_window",
+                "icon": "icon-tick"
+              }
+            }
+          ],
+          "logo_cloud": [
+            "one.png",
+            "two.png",
+            "three.png",
+            "four.png",
+            "five.png",
+            "six.png"
+          ]
+        }
+      }
+    }
+  }
+}
