@@ -1,32 +1,29 @@
 <template>
 	<div class="container">
 		<div class="row">
-			<div class="col-md-6 offset-3">
+			<div class="col-md-6">
 				<h2 class="display-4 text-secondary">Vue Slicksort</h2>
 				<SlickList lockAxis="y" v-model="items">
 					<SlickItem v-for="(item, index) in items" :index="index" :key="index">
-						<!-- <ul class="list-group">
-							<button>
-								<li @click="getData" class="list-group-item">{{ item }}</li>
-							</button>
-						</ul> -->
 						<div>
-							<div class="list-group-item">
-								<button class="btn btn-secondary" @click="getData"> {{ item }} </button>
+							<div class="list-group-item" v-model="items">
+								<button  class="btn btn-secondary" @click="getData"> {{ item }} </button>
 							</div>
 						</div>
 					</SlickItem>
 				</SlickList>
 			</div>
-			
 		</div>
 	</div>
 </template>
 
 <script>
+	
 	import { SlickList, SlickItem } from 'vue-slicksort';
 	export default {
+
 		components: {
+			
 			SlickList,SlickItem
 		},
 		data() {

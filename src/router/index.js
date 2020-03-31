@@ -1,6 +1,9 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import SlickSort from '@/components/SlickSort'
+import Mother from '@/components/Mother'
+
+
 Vue.use(Router)
 
 export default new Router({
@@ -8,6 +11,10 @@ export default new Router({
     {
     	path: '/slick',
     	component: SlickSort
+    },
+    {
+    	path: '/mother',
+    	component: Mother
     }
   ]
 })
