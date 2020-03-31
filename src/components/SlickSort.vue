@@ -5,11 +5,16 @@
 				<h2 class="display-4 text-secondary">Vue Slicksort</h2>
 				<SlickList lockAxis="y" v-model="items">
 					<SlickItem v-for="(item, index) in items" :index="index" :key="index">
-						<ul class="list-group">
+						<!-- <ul class="list-group">
 							<button>
 								<li @click="getData" class="list-group-item">{{ item }}</li>
 							</button>
-						</ul>
+						</ul> -->
+						<div>
+							<div class="list-group-item">
+								<button class="btn btn-secondary" @click="getData"> {{ item }} </button>
+							</div>
+						</div>
 					</SlickItem>
 				</SlickList>
 			</div>
@@ -34,9 +39,10 @@
 			
 			axios.get('../static/site-config.json')
 			.then(response => {
-				console.log(response.data.blocks.order)
+				
 				this.items = response.data.blocks.order;
-
+				//console.log(response.data.blocks.data)
+				
 			}).catch(err => {
 				console.log(err);
 			})
@@ -46,7 +52,7 @@
 			getData() {
 				axios.get('../static/site-config.json')
 				.then(response => {
-					console.log(response.data.blocks.order)
+					console.log(response.data.blocks.data)
 				}).catch(err => {
 					console.log(err);
 				})
